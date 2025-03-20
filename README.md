@@ -12,12 +12,17 @@ This model captures both the exponential decay (via the $e^{-\gamma t}$ term) an
 
 The assignment is divided into the following parts:
 
-Part 0: Problem Selection – Describes the chosen model and explains the variables.
-Part 1: Exact Solution – Plots the exact function over a domain and shows how changing the exogenous variables ($\gamma$ and $\omega$) affects the system.
-Part 2: Introducing Modelling Errors – Implements a Taylor series approximation (truncated after the first two nonzero terms) to simulate limited computational capability, and compares the approximation with the exact solution.
-Part 3: Introducing Data Errors – Simulates limited numerical precision by chopping floating point values to 3 decimal places, then compares these results with the high-precision outputs.
-Part 4: Total Error – Combines the modelling and data errors to assess the overall impact on the output.
-Part 5: Sensitivity and Conditioning – Computes and compares the condition numbers (both exact and approximate) to analyze the sensitivity of the model’s output.
+    - Part 0: Problem Selection – Describes the chosen model and explains the variables.
+
+    - Part 1: Exact Solution – Plots the exact function over a domain and shows how changing the exogenous variables ($\gamma$ and $\omega$) affects the system.
+
+    - Part 2: Introducing Modelling Errors – Implements a Taylor series approximation (truncated after the first two nonzero terms) to simulate limited computational capability, and compares the approximation with the exact solution.
+
+    - Part 3: Introducing Data Errors – Simulates limited numerical precision by chopping floating point values to 3 decimal places, then compares these results with the high-precision outputs.
+
+    - Part 4: Total Error – Combines the modelling and data errors to assess the overall impact on the output.
+
+    - Part 5: Sensitivity and Conditioning – Computes and compares the condition numbers (both exact and approximate) to analyze the sensitivity of the model’s output.
 
 File Structure
 FIT3139_Assignment_1.ipynb:
